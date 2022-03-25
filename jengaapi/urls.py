@@ -38,5 +38,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('account_services.urls')),
     path('',include('send_money.urls')),
+    path('',include('receive_money.urls')),
     # path('',include('.urls')),
 ]
