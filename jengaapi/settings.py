@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework',
     'account_services',
+    'send_money',
     'corsheaders',
 ]
 
