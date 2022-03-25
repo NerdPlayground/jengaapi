@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'account_services',
     'send_money',
+    'receive_money',
     'corsheaders',
 ]
 
