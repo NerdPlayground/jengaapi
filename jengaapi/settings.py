@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'send_money',
     'receive_money',
     'airtime',
+    'loans',
     'corsheaders',
 ]
 
