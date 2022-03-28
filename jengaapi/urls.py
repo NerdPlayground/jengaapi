@@ -40,5 +40,6 @@ urlpatterns = [
     path('',include('send_money.urls')),
     path('',include('receive_money.urls')),
     path('',include('airtime.urls')),
+    path('',include('loans.urls'))
     # path('',include('.urls')),
 ]
