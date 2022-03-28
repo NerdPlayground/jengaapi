@@ -1,7 +1,6 @@
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.generics import GenericAPIView
-from airtime.serializers import PurchaseAirtimeSerializer
 from loans.serializers import CreditScoreSerializer
 
 class CreditScoreAPIView(GenericAPIView):
