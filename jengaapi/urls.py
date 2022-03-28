@@ -42,5 +42,6 @@ urlpatterns = [
     path('',include('airtime.urls')),
     path('',include('loans.urls')),
     path('',include('forex_rates.urls')),
+    path('',include('identification.urls')),
     # path('',include('.urls')),
 ]
