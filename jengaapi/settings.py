@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'airtime',
     'loans',
     'forex_rates',
+    'identification',
     'corsheaders',
 ]
 
